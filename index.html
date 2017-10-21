@@ -1,0 +1,29 @@
+<DOCTYPE html>        
+    <head>
+        <title> Wikipedia Viewer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="wikipedia-viewer-javascript.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="wikipedia-viewer-style.css">
+    </head>
+
+<div class="container-fluid"> 
+  
+    <div class= "outer">
+        <div class= "inner">
+            <input id="searchTerm" class="search rounded" type="text" placeholder=" Search Wikipedia" required></input>
+        </div>
+    
+        <div class= "inner">
+            <button id=search class="btn btn-primary" type="submit"><i class="fa fa-search"> </i> </button>
+        </div>
+
+        <div class=  "inner">
+            <button id="random" class="btn btn-primary" type="submit"><i class="fa fa-random"> </i> </button>
+        </div>
+    </div>
+
+    <ul id = "output"></ul>
+  
+</div>

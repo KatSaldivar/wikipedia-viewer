@@ -1,0 +1,98 @@
+body{
+  background-image: url(http://mycdn.technologyvista.netdna-cdn.com/wp-content/uploads/2015/12/wikipedia-logo.jpg);
+  background-repeat:no-repeat;
+}
+.outer{
+  width:100%;
+  text-align: center;
+  margin: auto auto auto auto;
+  width: 1000px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.inner{
+    text-align: center;
+    display: inline-block;
+  font-size: 24pt;
+}
+.rounded{
+  border-radius: 50%;
+  border-color:	#ffbf00;
+  border-radius:15px; 
+	-moz-border-radius:15px; 
+  -webkit-border-radius:15px;
+}
+#searchTerm{
+  width:600px;
+  height:70px;
+  font-size:24pt;
+  text-indent: 20px;
+}
+input::-webkit-input-placeholder {
+color: #ffd24d;
+}
+:focus {
+  outline-color: transparent;
+  outline: 0;
+}
+/*textarea, input, button { 
+  outline: 0; 
+}*/
+input, select, textarea{
+    color: #cc9900;
+}
+.btn {
+  border-radius: 50%;
+  background-color:	#ffbf00;
+  border: none;
+  width:70px;
+  height:70px;
+  font-size:24pt;
+  text-align: center;
+}
+.btn:hover {
+  background-color:	#e6ac00;
+  cursor: pointer;
+}
+#output {
+  color: #cc9900;
+  font-size: 13pt;
+  list-style: none;
+}
+a:link {
+  color: #cc9900;
+  text-decoration: underline;
+  font-size: 21pt;
+}
+a:visited {
+    color: #ffd966;
+}
+a:hover {
+    opacity: 0.7;
+    cursor:pointer;
+}
+li {
+    border:2px solid #ffbf00;
+  border-radius:5%;
+  margin: 15px;
+  padding: 15px;
+}
+@media (max-device-width: 768px) {
+  #searchTerm{
+    width:95vw;
+    height:10vw;
+    font-size:60pt;
+    text-indent: 10px;
+}
+#title{
+    font-size: 50pt;
+}
+p{
+    font-size: 30pt;
+}
+.btn{
+    width:10vw;
+    height:10vw;
+    font-size: 40pt;
+}
+}
